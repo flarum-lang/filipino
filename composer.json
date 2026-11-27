@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/filipino",
+	"description": "Filipino Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Filipino language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/filipino",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"fil-locale",
-		"filipino-locale",
-		"filipino"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/filipino",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/filipino/issues",
+		"forum": "https://discuss.flarum.org/d/40186",
 		"source": "https://github.com/flarum-lang/filipino"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Filipino",
 			"category": "language",
@@ -34,12 +31,6 @@
 		"flarum-locale": {
 			"code": "fil",
 			"title": "Filipino"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
 		}
 	}
 }
